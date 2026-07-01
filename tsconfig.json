@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@shared/*": ["src/shared/*"]
+    }
+  },
+  "include": ["src", "App.tsx", "Home.tsx", "Roadmap.tsx", "Chapter.tsx", "Playground.tsx", "Progress.tsx", "Project.tsx", "Resources.tsx", "vite.config.ts"],
+  "exclude": ["db.ts", "routers.ts", "schema.ts", "seed-data.mjs", "node_modules", "dist", "project-starter"],
+  "references": []
+}
